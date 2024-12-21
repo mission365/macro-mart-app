@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:macro_mart_app/utils/theme/theme.dart';
 
 void main() {
   runApp(const App());
@@ -9,6 +10,10 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      themeMode: ThemeMode.system,
+      theme: MAppTheme.LightTheme,
+      darkTheme: MAppTheme.DarkTheme,
+    );
   }
 }
