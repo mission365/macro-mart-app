@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MTextTheme {
   MTextTheme._();
-  static TextTheme LightTextTheme = TextTheme(
+  static TextTheme lightTextTheme = TextTheme(
     headlineLarge: TextStyle().copyWith(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.black),
     headlineMedium: TextStyle().copyWith(fontSize: 24.0, fontWeight: FontWeight.w600, color: Colors.black),
     headlineSmall: TextStyle().copyWith(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.black),
@@ -18,7 +18,7 @@ class MTextTheme {
     labelLarge: TextStyle().copyWith(fontSize: 12.0, fontWeight: FontWeight.normal, color: Colors.black),
     labelMedium: TextStyle().copyWith(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.black.withOpacity(0.5))
   );
-  static TextTheme DarkTextTheme = TextTheme(
+  static TextTheme darkTextTheme = TextTheme(
     headlineLarge: TextStyle().copyWith(fontSize: 32.0, fontWeight: FontWeight.bold, color: Colors.white),
     headlineMedium: TextStyle().copyWith(fontSize: 24.0, fontWeight: FontWeight.w600, color: Colors.white),
     headlineSmall: TextStyle().copyWith(fontSize: 24.0, fontWeight: FontWeight.w600, color: Colors.white),
