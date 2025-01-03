@@ -16,7 +16,7 @@ class OnBoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(MSizes.defaultSpace),
+      padding: EdgeInsets.all( MSizes.defaultSpace),
       child: Column(
         children: [
           Image(
